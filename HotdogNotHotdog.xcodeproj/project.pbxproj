@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE655CED2307EF4F000AE539 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE655CEC2307EF4F000AE539 /* Resnet50.mlmodel */; };
 		DEBCAE57230108560013D7CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBCAE56230108560013D7CA /* AppDelegate.swift */; };
 		DEBCAE59230108560013D7CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBCAE58230108560013D7CA /* SceneDelegate.swift */; };
 		DEBCAE5B230108560013D7CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBCAE5A230108560013D7CA /* ContentView.swift */; };
@@ -16,9 +17,11 @@
 		DEBCAE6C230108960013D7CA /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBCAE6B230108960013D7CA /* ImageView.swift */; };
 		DEBCAE6E2301091B0013D7CA /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBCAE6D2301091B0013D7CA /* CameraView.swift */; };
 		DEBCAE7023010A290013D7CA /* CameraState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBCAE6F23010A290013D7CA /* CameraState.swift */; };
+		DEBCBD5A23052A3300E7C35D /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBCBD5923052A3300E7C35D /* ResultsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE655CEC2307EF4F000AE539 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		DEBCAE53230108560013D7CA /* HotdogNotHotdog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotdogNotHotdog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEBCAE56230108560013D7CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEBCAE58230108560013D7CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +33,7 @@
 		DEBCAE6B230108960013D7CA /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		DEBCAE6D2301091B0013D7CA /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		DEBCAE6F23010A290013D7CA /* CameraState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraState.swift; sourceTree = "<group>"; };
+		DEBCBD5923052A3300E7C35D /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 				DEBCAE64230108570013D7CA /* Info.plist */,
 				DEBCAE5E230108570013D7CA /* Preview Content */,
 				DEBCAE6F23010A290013D7CA /* CameraState.swift */,
+				DE655CEC2307EF4F000AE539 /* Resnet50.mlmodel */,
 			);
 			path = HotdogNotHotdog;
 			sourceTree = "<group>";
@@ -88,6 +93,7 @@
 			children = (
 				DEBCAE6B230108960013D7CA /* ImageView.swift */,
 				DEBCAE6D2301091B0013D7CA /* CameraView.swift */,
+				DEBCBD5923052A3300E7C35D /* ResultsView.swift */,
 			);
 			path = SupportingViews;
 			sourceTree = "<group>";
@@ -163,11 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEBCBD5A23052A3300E7C35D /* ResultsView.swift in Sources */,
 				DEBCAE7023010A290013D7CA /* CameraState.swift in Sources */,
 				DEBCAE6C230108960013D7CA /* ImageView.swift in Sources */,
 				DEBCAE57230108560013D7CA /* AppDelegate.swift in Sources */,
 				DEBCAE59230108560013D7CA /* SceneDelegate.swift in Sources */,
 				DEBCAE6E2301091B0013D7CA /* CameraView.swift in Sources */,
+				DE655CED2307EF4F000AE539 /* Resnet50.mlmodel in Sources */,
 				DEBCAE5B230108560013D7CA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

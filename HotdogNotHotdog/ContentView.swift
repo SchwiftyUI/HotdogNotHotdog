@@ -15,6 +15,8 @@ struct ContentView: View {
         ZStack {
             ImageView(cameraState: cameraState)
             
+            ResultsView(cameraState: cameraState)
+            
             if cameraState.isTakingPhoto {
                 CameraView(cameraState: cameraState)
                     .transition(AnyTransition.move(edge: .trailing))
